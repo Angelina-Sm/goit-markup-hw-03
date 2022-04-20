@@ -30,7 +30,7 @@ ul, ol {
     margin: 0;
 }
 
-.img {
+img {
     display: block;
 }
 
@@ -48,7 +48,6 @@ ul, ol {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 1px solid red;
 }
 
 .visually-hidden {
@@ -69,6 +68,7 @@ ul, ol {
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;;
 }
 
 .header .container {
@@ -398,7 +398,6 @@ ul, ol {
 .main-portfolio-section {
     padding-top: 92px;
     padding-bottom: 92px;
-    border: 1px solid #ECECEC;
 }
 
 .main-portfolio-list {
@@ -449,15 +448,20 @@ ul, ol {
     flex-basis: calc((100% - 90px) / 3);
     margin-left: 30px;
     margin-bottom: 30px;
-    border: 1px solid #EEEEEE;
     box-sizing: border-box;
 
+}
+
+.portfolio-item-border {
+    display: block;
+    border: 1px solid #EEEEEE;
+    border-top: none;
 }
 
 .portfolio-subtitle {
     font-weight: 700;
     font-size: 18px;
-    line-height: 2;
+   
     letter-spacing: 0.06em;
     color: var(--subtitle);
     margin-top: 20px;
