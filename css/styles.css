@@ -454,6 +454,7 @@ img {
 
 .portfolio-item-border {
     display: block;
+    padding: 20px 24px;
     border: 1px solid #EEEEEE;
     border-top: none;
 }
@@ -461,13 +462,10 @@ img {
 .portfolio-subtitle {
     font-weight: 700;
     font-size: 18px;
-   
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--subtitle);
-    margin-top: 20px;
     margin-bottom: 4px;
-    padding-left: 24px;
-    padding-right: 24px;
 }
 
 .portfolio-description {
